@@ -1,7 +1,7 @@
 import urllib2, json, sys
 
 if(len(sys.argv) != 2):
-	print "Usage: dollars2satoshis.py [USD_amount]"
+	print "Usage: satoshicalculator.py [USD_amount]"
 	sys.exit(1)
 
 price_url = "http://api.coindesk.com/v1/bpi/currentprice.json"
